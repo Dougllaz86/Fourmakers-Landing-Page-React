@@ -1,0 +1,50 @@
+.button-ctacta {
+  gap: var(--dl-space-space-halfunit);
+  height: var(--dl-size-size-small);
+  display: inline-flex;
+  position: relative;
+  transition: all .4s ease-in-out;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+  background-image: linear-gradient(90deg, rgb(76, 191, 255) 1.00%,rgba(154, 27, 255, 0.99) 99.00%);
+}
+.button-ctacta:hover {
+  gap: var(--dl-space-space-unit);
+}
+.button-cta-bs-arrow-right-short {
+  width: 24px;
+  height: 24px;
+}
+.button-cta-text2 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  display: inline-block;
+  flex-grow: 1;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-weight: 600;
+  line-height: 125%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.button-ct-aroot-class-name {
+  align-self: center;
+}
+.button-ct-aroot-class-name1 {
+  align-self: center;
+}
+.button-ct-aroot-class-name2 {
+  align-self: flex-start;
+}
+.button-ct-aroot-class-name3 {
+  align-self: flex-start;
+}
+.button-ct-aroot-class-name4 {
+  align-self: flex-start;
+}

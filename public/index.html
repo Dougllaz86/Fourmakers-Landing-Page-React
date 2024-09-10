@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html lang="portuguese">
+  <head>
+    <title>Fourmakers - Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Poppins";
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="/fourmakers_favicon.svg"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/teams/tSBuz6sMYZEZ5mtSVNyg/assets/bjwnit3iyjhk/fourmakers_favicon.svg"
+    />
+
+    <!-- Open Graph & SEO tags -->
+    <!-- HTML Meta Tags -->
+    <title>Fourmakers</title>
+    <meta name="description" content="Uma nova era na gestão de talentos" />
+
+    <!-- Facebook & General Meta Tags -->
+    <meta property="og:url" content="https://fourmakers.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Fourmakers" />
+    <meta
+      property="og:description"
+      content="Uma nova era na gestão de talentos"
+    />
+    <meta
+      property="og:image"
+      content="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/teams/tSBuz6sMYZEZ5mtSVNyg/assets/ifmc35qv0ckm/og-img.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fourmakers" />
+    <meta
+      name="twitter:description"
+      content="Uma nova era na gestão de talentos"
+    />
+    <meta
+      name="twitter:image"
+      content="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/teams/tSBuz6sMYZEZ5mtSVNyg/assets/ifmc35qv0ckm/og-img.png"
+    />
+
+    <!-- Microsoft Teams Meta Tags -->
+    <meta
+      name="msapplication-TileImage"
+      content="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/teams/tSBuz6sMYZEZ5mtSVNyg/assets/ifmc35qv0ckm/og-img.png"
+    />
+    <meta name="msapplication-TileColor" content="#9A1BFF" />
+    <meta name="theme-color" content="#9A1BFF" />
+
+    <!-- Fallback Meta Tags -->
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Fourmakers" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <style>
+      html {
+      scroll-behavior: smooth;
+      }
+
+      .swiper-slide:hover, div[action="btn-form"], #close-modal{
+      cursor: pointer;
+      }
+
+      #solucoes .swiper-slide > div:hover > :last-child{
+      background-color: transparent;
+      background-image: linear-gradient(90deg, rgb(76, 191, 255) 0.00%,rgb(154, 27, 255) 99.00%);
+      }
+
+      .show{
+      display:flex !important;
+      }
+
+      .hide {
+      display: none !important;
+      }
+
+      div[faq="answer"] {
+      	opacity: 0;
+      	max-height: 0;
+      	overflow: hidden;
+      	transition: opacity 0.5s ease, max-height 0.5s ease;
+      }
+
+      svg[action="close-modal"] {
+      	cursor: pointer;
+      }
+
+      div[faq="answer"].show {
+      	opacity: 1;
+      	max-height: 1000px; /* Define um valor grande o suficiente para conter o conteúdo */
+      }
+
+      input[type=checkbox] {
+          -webkit-appearance: none !important;
+      }
+
+      input[type=checkbox]:checked {
+          -webkit-appearance: checkbox !important;
+      	border-radius:var(--dl-radius-radius-radius4);
+      }
+
+      input[type=checkbox]{
+        accent-color: var(--dl-color-theme-primary1) !important;
+        background-color: #0000004d !important;
+        border-radius:var(--dl-radius-radius-radius4);
+        border: 1px solid var(--dl-color-theme-primary1);
+        overflow:hidden;
+        cursor:pointer;
+      }
+
+      #form-solucoes, #form-duvidas {
+          display: none;
+      }
+
+      div[type="line"] {
+
+
+          background: linear-gradient(90deg, #4CBFFF, #9A1BFF, #3BFE95, #4CBFFF);
+      	background-size: 200%;
+      	animation: gradientAnimation 5s ease infinite;
+          -webkit-animation: gradientAnimation 5s ease infinite;
+      }
+
+      @-webkit-keyframes gradientAnimation {
+      	0% {
+      		background-position: 0%;
+      	}
+      	100% {
+      		background-position: 200%;
+      	}
+      @keyframes gradientAnimation {
+      	0% {
+      		background-position: 0%;
+      	}
+      	100% {
+      		background-position: 200%;
+      	}
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- Your body code here -->
+    <!-- <script type="text/javascript"> ... </script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      emailjs.init('T-RXUKWlB3ePeUNMp');
+    </script>
+
+    <script type="text/javascript">
+      // Inicialização do EmailJS
+      (function() {
+          emailjs.init("T-RXUKWlB3ePeUNMp"); // Substitua pelo seu `user_id`
+      })();
+
+      // Variáveis globais usadas nos scripts
+      const buttons = document.querySelectorAll('[action="btn-form"]');
+      const closeButtons = document.querySelectorAll('[action="close-modal"]'); // Alterado para selecionar todos os botões com action="close-modal"
+      const modalElement = document.getElementById('modal1');
+      const modalTitle = modalElement ? modalElement.querySelector('[modal="title"]') : null; // Certifique-se de que o modal e o título existam
+      const formSolucoes = document.getElementById('form-solucoes');
+      const formDuvidas = document.getElementById('form-duvidas');
+
+      // Função para exibir o formulário correto no modal
+      function exibirFormularioCorreto(areaValue) {
+          // Sempre oculta ambos os formulários no início
+          if (formSolucoes) formSolucoes.style.display = 'none';
+          if (formDuvidas) formDuvidas.style.display = 'none';
+
+          // Mostra o formulário correto baseado no valor de "area"
+          if (areaValue === 'Dúvidas' && formDuvidas) {
+              formDuvidas.style.display = 'flex'; // Exibe o form de dúvidas
+          } else if (formSolucoes) {
+              formSolucoes.style.display = 'flex'; // Exibe o form de soluções por padrão
+          }
+      }
+
+      // Manipulação dos botões de abertura do modal
+      if (buttons.length > 0) {
+          buttons.forEach(button => {
+              console.log("Botão encontrado:", button);
+
+              button.addEventListener('click', function() {
+                  console.log("Botão clicado");
+
+                  const areaValue = button.getAttribute('area'); // Captura o valor do atributo `area`
+                  const tituloValue = button.getAttribute('titulo'); // Captura o valor do atributo `titulo`
+
+                  if (modalElement && modalTitle) {
+                      // Certifique-se de remover todas as classes que possam ocultar o modal e adicionar as que mostram
+                      modalElement.classList.remove('hide');
+                      modalElement.classList.add('show');
+                      console.log("Classe 'show' adicionada ao modal");
+
+                      // Altera o título do modal com base no atributo "titulo"
+                      if (tituloValue) {
+                          modalTitle.textContent = tituloValue;
+                          console.log("Título do modal atualizado para:", tituloValue);
+                      } else {
+                          console.error("Atributo 'titulo' não encontrado ou vazio no botão");
+                      }
+
+                      // Define o novo atributo "area" no título, se aplicável
+                      if (areaValue) {
+                          modalTitle.setAttribute('area', areaValue);
+                          console.log("Atributo 'area' do modal atualizado para:", areaValue);
+                      } else {
+                          console.error("Atributo 'area' não encontrado ou vazio no botão");
+                      }
+
+                      // Exibe o formulário correto com base no atributo "area"
+                      exibirFormularioCorreto(areaValue);
+
+                      console.log("Título do modal e atributo 'area' atualizados");
+                  } else {
+                      console.log("Modal ou título do modal não encontrado");
+                  }
+              });
+          });
+      } else {
+          console.error("Nenhum botão encontrado com o atributo 'action=btn-form'.");
+      }
+
+      // Manipulação dos botões de fechar o modal
+      if (closeButtons.length > 0) {
+          closeButtons.forEach(closeButton => {
+              console.log("Botão de fechar encontrado:", closeButton);
+
+              closeButton.addEventListener('click', function() {
+                  console.log("Botão de fechar clicado");
+                  if (modalElement) {
+                      modalElement.classList.remove('show');
+                      modalElement.classList.add('hide');
+                      console.log("Classe 'hide' adicionada ao modal");
+                  } else {
+                      console.log("Modal não encontrado");
+                  }
+              });
+          });
+      } else {
+          console.error("Nenhum botão de fechar encontrado com o atributo 'action=close-modal'.");
+      }
+
+      // Manipulação do envio do formulário
+      const forms = document.querySelectorAll('[data-email-form]');
+
+      forms.forEach(function(form) {
+          form.addEventListener('submit', function(event) {
+              event.preventDefault(); // Impede o comportamento padrão do formulário
+
+              let formValid = true;
+              let firstInvalidInput = null;
+
+              const submitButton = form.querySelector('button[type="submit"]'); // Seleciona o botão de envio
+
+              // Desabilitar o botão de envio para evitar múltiplos envios
+              if (submitButton) {
+                  submitButton.disabled = true;
+                  submitButton.textContent = 'Enviando...'; // Exibir um feedback visual
+              }
+
+              const inputs = form.querySelectorAll('input, textarea');
+              for (let input of inputs) {
+                  input.setCustomValidity(''); // Limpa mensagens anteriores
+
+                  if (!input.validity.valid) {
+                      formValid = false;
+
+                      if (input.validity.valueMissing) {
+                          input.setCustomValidity('Por favor, preencha este campo.');
+                      } else if (input.validity.typeMismatch) {
+                          input.setCustomValidity('Por favor, insira um endereço de e-mail válido.');
+                      } else {
+                          input.setCustomValidity('Por favor, corrija este campo.');
+                      }
+
+                      if (!firstInvalidInput) {
+                          firstInvalidInput = input;
+                          input.reportValidity(); // Mostra a mensagem de erro personalizada
+                          input.focus(); // Foca no primeiro campo inválido
+                          break; // Para o loop após encontrar o primeiro erro
+                      }
+                  }
+              }
+
+              if (formValid) {
+                  // Verificar os campos que podem não estar presentes no form
+                  const areaElement = form.querySelector('[area]');
+                  let areaValue = areaElement ? areaElement.getAttribute('area') : 'Não aplicável neste formulário';
+
+                  // Verifica os campos, se eles existem, usa o valor; senão, usa 'Não aplicável neste formulário'
+                  const nomeValue = form.nome ? form.nome.value : 'Não aplicável neste formulário';
+                  const telefoneValue = form.telefone ? form.telefone.value : 'Não aplicável neste formulário';
+                  const emailValue = form.email ? form.email.value : 'Não aplicável neste formulário';
+                  const empresaValue = form.empresa ? form.empresa.value : 'Não aplicável neste formulário';
+                  const colaboradoresValue = form.colaboradores ? form.colaboradores.value : 'Não aplicável neste formulário';
+                  const mensagemValue = form.mensagem ? form.mensagem.value : 'Não aplicável neste formulário';
+
+                  const templateParams = {
+                      solucao: areaValue,
+                      nome: nomeValue,
+                      telefone: telefoneValue,
+                      email: emailValue,
+                      empresa: empresaValue,
+                      colaboradores: colaboradoresValue,
+                      mensagem: mensagemValue
+                  };
+
+                  emailjs.send('service_sjlzhal', 'template_6eqau4s', templateParams)
+                      .then(function(response) {
+                          console.log('E-mail enviado com sucesso!', response.status, response.text);
+                          alert("E-mail enviado com sucesso!");
+
+                          // Fechar o modal se estiver aberto
+                          if (modalElement && modalElement.classList.contains('show')) {
+                              modalElement.classList.remove('show');
+                              modalElement.classList.add('hide');
+                              console.log("Modal fechado após o envio do formulário.");
+                          }
+
+                          // Limpar o formulário após o envio
+                          form.reset();
+
+                          // Reativar o botão de envio após o sucesso
+                          if (submitButton) {
+                              submitButton.disabled = false;
+                              submitButton.textContent = 'Enviar'; // Restaurar o texto do botão
+                          }
+
+                      }, function(error) {
+                          console.log('Erro ao enviar o e-mail...', error);
+                          alert("Erro ao enviar e-mail.");
+
+                          // Reativar o botão de envio em caso de erro
+                          if (submitButton) {
+                              submitButton.disabled = false;
+                              submitButton.textContent = 'Enviar'; // Restaurar o texto do botão
+                          }
+                      });
+              } else {
+                  // Reativar o botão de envio se o formulário não for válido
+                  if (submitButton) {
+                      submitButton.disabled = false;
+                  }
+              }
+          });
+      });
+    </script>
+
+    <script>
+        AOS.init({
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 300, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 500, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+
+      });
+    </script>
+
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function() {
+          // Seleciona todos os grupos de FAQ
+          const faqGroups = document.querySelectorAll('[faq="group"]');
+
+          // Função para fechar todas as respostas e configurar o estado inicial
+          function initializeFaqGroups() {
+              faqGroups.forEach(group => {
+                  const answer = group.querySelector('[faq="answer"]');
+                  const expandButton = group.querySelector('[faq="expand"]');
+                  const collapseButton = group.querySelector('[faq="colapse"]');
+
+                  // Garante que todas as respostas estejam fechadas inicialmente
+                  if (answer) {
+                      answer.classList.remove('show');
+                  }
+
+                  // Exibe o botão de expandir e esconde o de colapsar
+                  if (expandButton) {
+                      expandButton.style.display = 'block';
+                  }
+
+                  if (collapseButton) {
+                      collapseButton.style.display = 'none';
+                  }
+              });
+          }
+
+          // Inicializa os grupos de FAQ
+          initializeFaqGroups();
+
+          // Adiciona eventos de clique a cada botão de expandir e colapsar
+          faqGroups.forEach(group => {
+              const expandButton = group.querySelector('[faq="expand"]');
+              const collapseButton = group.querySelector('[faq="colapse"]');
+              const answer = group.querySelector('[faq="answer"]');
+
+              // Função para fechar todas as respostas de outros grupos
+              function closeOtherAnswers() {
+                  faqGroups.forEach(otherGroup => {
+                      if (otherGroup !== group) {
+                          const otherAnswer = otherGroup.querySelector('[faq="answer"]');
+                          const otherExpandButton = otherGroup.querySelector('[faq="expand"]');
+                          const otherCollapseButton = otherGroup.querySelector('[faq="colapse"]');
+
+                          if (otherAnswer) {
+                              otherAnswer.classList.remove('show'); // Fecha a resposta com animação
+                          }
+                          if (otherExpandButton) {
+                              otherExpandButton.style.display = 'block';
+                          }
+                          if (otherCollapseButton) {
+                              otherCollapseButton.style.display = 'none';
+                          }
+                      }
+                  });
+              }
+
+              // Evento de clique para expandir
+              if (expandButton) {
+                  expandButton.addEventListener('click', function() {
+                      closeOtherAnswers(); // Fecha as outras respostas
+                      if (answer) {
+                          answer.classList.add('show'); // Abre a resposta com animação
+                      }
+                      expandButton.style.display = 'none'; // Esconde o botão de expandir
+                      if (collapseButton) {
+                          collapseButton.style.display = 'block'; // Mostra o botão de colapsar
+                      }
+                  });
+              }
+
+              // Evento de clique para colapsar
+              if (collapseButton) {
+                  collapseButton.addEventListener('click', function() {
+                      if (answer) {
+                          answer.classList.remove('show'); // Fecha a resposta com animação
+                      }
+                      collapseButton.style.display = 'none'; // Esconde o botão de colapsar
+                      if (expandButton) {
+                          expandButton.style.display = 'block'; // Mostra o botão de expandir
+                      }
+                  });
+              }
+          });
+      });
+    </script>
+
+    <script
+      defer
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
