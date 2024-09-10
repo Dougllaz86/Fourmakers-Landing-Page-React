@@ -6433,7 +6433,8 @@
 }
 .home-container30 {
   top: 0px;
-  width: 100%;
+  left: 50%;
+  width: 50%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100%;
   display: flex;
@@ -6442,7 +6443,9 @@
   align-items: stretch;
   flex-direction: column;
   mix-blend-mode: luminosity;
+  background-size: cover;
   justify-content: space-between;
+  background-image: url('https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/teams/tSBuz6sMYZEZ5mtSVNyg/assets/hx7yvbf3zrnp/business-teamwork-join-hands-together-business-teamwork-concept.png');
   background-position: center;
 }
 .home-form1 {
